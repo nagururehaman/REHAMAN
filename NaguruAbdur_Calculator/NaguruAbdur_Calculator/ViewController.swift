@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func acbutton(_ sender: UIButton) {
+        outLabel.text = ""
     }
     
     
@@ -51,36 +52,47 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dotButton(_ sender: UIButton) {
+        outLabel.text = "."
     }
     
     @IBAction func zeroButton(_ sender: UIButton) {
+        outLabel.text = "0"
     }
     
     @IBAction func oneButton(_ sender: UIButton) {
+        outLabel.text = "1"
     }
     
     @IBAction func twoButton(_ sender: UIButton) {
+        outLabel.text = "2"
     }
     
     @IBAction func threeButton(_ sender: UIButton) {
+        outLabel.text = "3"
     }
     
     @IBAction func fourButton(_ sender: UIButton) {
+        outLabel.text = "4"
     }
     
     @IBAction func fiveButton(_ sender: UIButton) {
+        outLabel.text = "5"
     }
     
     @IBAction func sixButton(_ sender: UIButton) {
+        outLabel.text = "6"
     }
     
     @IBAction func sevenButton(_ sender: UIButton) {
+        outLabel.text = "7"
     }
     
     @IBAction func eightButton(_ sender: UIButton) {
+        outLabel.text = "8"
     }
     
     @IBAction func nineButton(_ sender: UIButton) {
+        outLabel.text = "9"
     }
     
     
